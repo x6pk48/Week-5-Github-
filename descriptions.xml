@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Group 4:  -->
+<ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ ead3.xsd">
+  <control>
+    <recordid>se-collection</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Significant Events: TNA Online Exhibition (Teaching Set)</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>UCL Department of Information Studies (teaching exercise)</publisher>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="new"/>
+    <maintenanceagency>
+      <agencyname>UCL Department of Information Studies</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="created"/>
+        <eventdatetime standarddatetime="2026-11-02">2026-11-02</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Group X</agent>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Significant Events: TNA Online Exhibition (Teaching Set)</unittitle>
+      <unitid>se-collection</unitid>
+      <unitdatestructured unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1666">1666</fromdate>
+          <todate standarddate="1912">1912</todate>
+        </daterange>
+      </unitdatestructured>
+      <repository>
+        <corpname><part>The National Archives</part></corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <scopecontent>
+      <p>Teaching resources about significant events, described for the exhibition website.</p>
+    </scopecontent>
+    <dsc>
+
+      <c level="file" id="se-1666">
+        <did>
+          <unittitle>Great Fire of London</unittitle>
+          <unitid>se-1666</unitid>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1666">1666</datesingle>
+          </unitdatestructured>
+          <abstract>The fire began on 2 September 1666 in a bakery on Pudding Lane and spread through the City of London. This resource uses original documents to show how we know what happened.</abstract>
+          <dao href="https://www.nationalarchives.gov.uk/education/resources/fire-of-london/" actuate="onrequest" show="new"/>
+        </did>
+        <controlaccess>
+          <subject><part>great fire of london</part></subject>
+          <subject><part>fire</part></subject>
+          <subject><part>17th century</part></subject>
+          <subject><part>pudding lane</part></subject>
+          <geogname><part>London, England</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+
+      <c level="file" id="se-1912">
+        <did>
+          <unittitle>The sinking of the Titanic</unittitle>
+          <unitid>se-1912</unitid>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1912">1912</datesingle>
+          </unitdatestructured>
+          <abstract>The Titanic sank in the North Atlantic in April 1912 on its maiden voyage. Students use documents from the British Wreck Commissioner’s inquiry to consider why so many lives were lost.</abstract>
+          <dao href="https://www.nationalarchives.gov.uk/education/education-sessions/the-sinking-of-the-titanic/" actuate="onrequest" show="new"/>
+        </did>
+        <controlaccess>
+          <subject><part>titanic</part></subject>
+          <subject><part>shipwrecks</part></subject>
+          <subject><part>20th century</part></subject>
+          <geogname><part>North Atlantic</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

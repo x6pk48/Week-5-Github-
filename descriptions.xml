@@ -26,7 +26,7 @@
         <eventtype value="created"/>
         <eventdatetime standarddatetime="2026-11-02">2026-11-02</eventdatetime>
         <agenttype value="human"/>
-        <agent>Group X</agent>
+        <agent>Group 4</agent>
       </maintenanceevent>
     </maintenancehistory>
   </control>
@@ -50,9 +50,10 @@
     <scopecontent>
       <p>Teaching resources about significant events, described for the exhibition website.</p>
     </scopecontent>
-    <dsc>
+    <dsc> <!-- Use of dsc to go around the archdesc allow to be able to use more than one archdesc-->
 
-      <c level="file" id="se-1666">
+      <!-- EXAMPLES-->
+      <!-- <c level="file" id="se-1666">
         <did>
           <unittitle>Great Fire of London</unittitle>
           <unitid>se-1666</unitid>
@@ -72,9 +73,9 @@
         <userestrict>
           <p>Refer to The National Archives website for reuse terms.</p>
         </userestrict>
-      </c>
+      </c> -->
 
-      <c level="file" id="se-1912">
+      <!-- <c level="file" id="se-1912">
         <did>
           <unittitle>The sinking of the Titanic</unittitle>
           <unitid>se-1912</unitid>
@@ -93,7 +94,10 @@
         <userestrict>
           <p>Refer to The National Archives website for reuse terms.</p>
         </userestrict>
-      </c>
+      </c> -->
+
+     <!-- OUR CODE-->
+     
     </dsc>
   </archdesc>
 </ead>

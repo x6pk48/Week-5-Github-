@@ -50,7 +50,7 @@
     <scopecontent>
       <p>Teaching resources about significant events, described for the exhibition website.</p>
     </scopecontent>
-    <dsc> <!-- Use of dsc to go around the archdesc allow to be able to use more than one archdesc-->
+    <dsc> <!-- Use of dsc to go around the archdesc allow the multiple <c> entries inside that collection-->
 
       <!-- EXAMPLES-->
       <!-- <c level="file" id="se-1666">

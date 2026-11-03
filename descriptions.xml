@@ -194,7 +194,42 @@
           <p>Refer to The National Archives website for reuse terms.</p>
         </userestrict>
       </c>
-     
+
+     <-- NHS diagram document XML-->
+      <c level="item" id="item-nhs-1948">
+                <did>
+                    <unitid localtype="exhibition-id">TNA-EXH-TEAM-001-04</unitid>
+                    <unitid localtype="catalogue-ref" repositorycode="TNA">https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/</unitid>
+                    <unittitle>Birth of the NHS (1948): "Your New National Health Service" advertisement</unittitle>
+                    <unitdatestructured unitdatetype="inclusive">
+                        <datesingle standarddate="1948">1948</datesingle>
+                    </unitdatestructured>
+                    <abstract>A public information advertisement issued by the Department of Health for Scotland to explain that the National Health Service would start on 5 July 1948. It says that anyone can use the service, with no age limits and no fees, and tells people to choose a doctor and to collect application form E.C.1 for each family member. It appeared in selected Sunday, morning and evening newspapers in Scotland.</abstract>
+                    <physdesc>Digital image of a printed single-page advertisement, with transcript.</physdesc>
+                    <langmaterial>
+                        <language langcode="eng">English</language>
+                    </langmaterial>
+                    <origination>
+                        <corpname source="local"><part>Scotland. Department of Health</part></corpname>
+                    </origination>
+                    <repository>
+                        <corpname source="tna"><part>The National Archives</part></corpname>
+                    </repository>
+                    <dao daotype="derived" coverage="whole" label="Live TNA page: Birth of the NHS 1948" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" linktitle="Birth of the NHS 1948 - The National Archives" show="new" actuate="onrequest"/>
+                </did>
+                <scopecontent>
+                    <p>Advertisement that introduces the new National Health Service to the public in Scotland shortly before it began. It explains who can use the service, how it is paid for through public funds and how people should register with a doctor.</p>
+                    <p>TNA page: <ref href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" show="new" actuate="onrequest" linktitle="Birth of the NHS 1948 - The National Archives">Birth of the NHS 1948</ref>.</p>
+                </scopecontent>
+                <controlaccess>
+                    <subject source="local"><part>National Health Service (Great Britain)</part></subject>
+                    <subject source="local"><part>Health services</part></subject>
+                    <subject source="local"><part>Public health</part></subject>
+                    <geogname source="local"><part>Scotland</part></geogname>
+                    <corpname source="local"><part>Scotland. Department of Health</part></corpname>
+                    <genreform source="local"><part>Advertisements</part></genreform>
+                </controlaccess>
+            </c>
     </dsc>
   </archdesc>
 </ead>

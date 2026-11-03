@@ -97,6 +97,103 @@
       </c> -->
 
      <!-- OUR CODE-->
+<!-- [Dia] Titanic distress telegram: one single document, so level="item" -->
+      <c level="item" id="se-1912-telegram">
+
+        <!-- did: the core identifying details of the item -->
+        <did>
+          <unittitle>Titanic Distress Telegram 1912 received by S.S. Birma</unittitle>
+          <!-- Our own ID for this file, plus the real TNA catalogue reference -->
+          <unitid>se-1912-telegram</unitid>
+          <unitid localtype="tna-reference">MT 9/920C</unitid>
+
+          <!-- Sent around midnight, so the date spans the night of 14/15 April -->
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912-04-14">14 April 1912</fromdate>
+              <todate standarddate="1912-04-15">15 April 1912</todate>
+            </daterange>
+          </unitdatestructured>
+
+          <!-- Creator of this copy: the company whose ship recorded the message -->
+          <origination>
+            <corpname><part>Russian East Asiatic S.S. Co.</part></corpname>
+          </origination>
+
+          <!-- Physical description: how many, what type, and what it looks like -->
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>radio-telegram</unittype>
+            <physfacet>Typed on a printed Russian East Asiatic S.S. Co. form, with a table of columns for: number of words, origin station, time handed in, route and remarks; stamped M16307 and numbered 526</physfacet>
+          </physdescstructured>
+
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+
+          <!-- Short summary in our own words -->
+          <abstract>Radio-telegram sent on the night of 14/15 April 1912 at 11h45m from the Titanic (call sign MGY) and received by the S.S. Birma. It records a distress call saying the ship had struck an iceberg, was sinking fast and was asking for assistance at the position stated.</abstract>
+
+          <!-- Link to the online version; "derived" means digital copy of the physical original -->
+          <dao daotype="derived" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/titanic-telegram-1912/" actuate="onrequest" show="new"/>
+        </did>
+
+        <!-- Transcript of the document, keeping its original wording and layout -->
+        <scopecontent>
+          <head>Transcript</head>
+          <p>The Russian East Asiatic S.S. Co. Radio-Telegram. S.S. "Birma".</p>
+
+          <!-- The table printed on the form: one header row and one data row -->
+          <table frame="all">
+            <tgroup cols="5">
+              <thead>
+                <row>
+                  <entry>No. Words</entry>
+                  <entry>Origin Station</entry>
+                  <entry>Time handed in</entry>
+                  <entry>Via</entry>
+                  <entry>Remarks</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>bg to 6.</entry>
+                  <entry>Titanic</entry>
+                  <entry>11 H.45M. April 14/15 1912.</entry>
+                  <entry/> <!-- "Via" is blank on the original -->
+                  <entry>Distress call Ligs Loud.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+
+          <!-- The message itself, written below the table on the original -->
+          <p>Cgd - SOS. from M. G. Y. We have struck iceberg sinking fast come to our assistance. Position Lat. 41.46 n. Lon. 50.14. W. M. G. Y.</p>
+          <p>[MGY was the codename for the Titanic.]</p>
+        </scopecontent>
+
+        <!-- Access points: the index terms people can search by -->
+        <controlaccess>
+          <!-- Named bodies (ships count as corporate bodies) -->
+          <corpname relator="sender"><part>Titanic</part></corpname>
+          <corpname relator="recipient"><part>Birma</part></corpname>
+          <!-- Topics -->
+          <subject><part>titanic</part></subject>
+          <subject><part>shipwrecks</part></subject>
+          <subject><part>20th century</part></subject>
+          <!-- Type of document -->
+          <genreform><part>telegrams</part></genreform>
+          <!-- Place the telegram is from -->
+          <geogname>
+            <part>North Atlantic</part>
+          </geogname>
+        </controlaccess>
+
+        <!-- Conditions for reusing the item -->
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
      
     </dsc>
   </archdesc>

@@ -195,7 +195,7 @@
         </userestrict>
       </c>
 
-     <--! NHS diagram document XML-->
+     <!--NHS diagram document XML-->
       <c level="item" id="item-nhs-1948">
                 <did>
                     <unitid localtype="exhibition-id">TNA-EXH-TEAM-001-04</unitid>

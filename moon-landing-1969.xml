@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Group 4: Lesong Liu -->
+<ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ ead3.xsd">
+
+  <control>
+    <recordid>se-1969</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Moon Landing (1969)</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>UCL Department of Information Studies (teaching exercise)</publisher>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="new"/>
+    <maintenanceagency>
+      <agencyname>UCL Department of Information Studies</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="created"/>
+        <eventdatetime standarddatetime="2026-11-04">2026-11-04</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Lesong Liu</agent>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+
+  <archdesc level="file">
+    <did>
+      <unittitle>Moon Landing (1969)</unittitle>
+      <unitid>se-1969</unitid>
+      <unitdatestructured unitdatetype="inclusive">
+        <datesingle standarddate="1969-07-21">21 July 1969</datesingle>
+      </unitdatestructured>
+      <repository>
+        <corpname><part>The National Archives</part></corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <abstract>Telegram from the Foreign and Commonwealth Office to Washington, 21 July 1969, conveying Prime Minister Harold Wilson’s congratulations to President Nixon and the Apollo 11 astronauts on the successful Moon landing. Catalogue reference: FCO 55/351.</abstract>
+      <dao href="https://www.nationalarchives.gov.uk/education/resources/significant-events/moon-landing-1969/" actuate="onrequest" show="new"/>
+    </did>
+
+    <scopecontent>
+      <p>Educational resource based on a restricted telegram about the Apollo 11 mission.</p >
+    </scopecontent>
+
+    <controlaccess>
+      <subject><part>moon landing</part></subject>
+      <subject><part>apollo 11</part></subject>
+      <subject><part>space exploration</part></subject>
+      <subject><part>20th century</part></subject>
+      <geogname><part>Moon</part></geogname>
+    </controlaccess>
+
+    <userestrict>
+      <p>Refer to The National Archives website for reuse terms.</p >
+    </userestrict>
+  </archdesc>
+</ead>

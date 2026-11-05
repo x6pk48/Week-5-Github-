@@ -256,6 +256,89 @@
     <p>Refer to The National Archives website for reuse terms.</p>
   </userestrict>
 </c>
+<c level="item" id="se-1666-fire">
+<did>
+<unittitle>Report from the London Gazette on the Great Fire of London</unittitle>
+
+<!-- Great Fire 1666 -->
+<!-- Authored by Wynn-->
+<unitid>se-1666-fire</unitid>
+<unitid localtype="tna-reference">ZJ 1/1</unitid>
+
+<unitdatestructured unitdatetype="inclusive">
+<datesingle standarddate="1666-09-02">2 September 1666</datesingle>
+</unitdatestructured>
+
+<origination>
+<corpname>
+<part>The London Gazette</part>
+</corpname>
+</origination>
+
+<physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+<quantity>1</quantity>
+<unittype>report</unittype>
+<physfacet>A photo taken from a newspaper aged more than 3 centuries ago</physfacet>
+</physdescstructured>
+
+<langmaterial>
+<language langcode="eng">English</language>
+</langmaterial>
+
+<abstract>This is a informative website about the great fire of London in 1666, explaining how the event happens and what it takes to stop it.</abstract>
+
+<dao daotype="derived"
+href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/great-fire-of-london-1666/"
+actuate="onrequest"
+show="new"/>
+</did>
+
+<scopecontent>
+<head>Transcript</head>
+
+<p>London, Sept. 2</p>
+
+<p>About two a clock this morning a sudden and lamentable fire brake out in this City, beginning not far from Thames Street, near London Bridge; which continues still with great violence, and hath already burnt down to the ground many houses thereabouts; Which said accident affected His Majesty with that tenderness and compassion that He was pleased to Himself in Person with His Royal Highness to give order that all possible means should be used for quenching the fire, or stopping its further spreading. In which care, the Right Honourable the Earl of Craven was sent by His Majesty, to be more particularly assisting to the Lord Major and Magistrates; and several companies of His Guards sent into the City, to be helpful what ways they could in so great calamity.</p>
+</scopecontent>
+
+<controlaccess>
+<corpname relator="creator">
+<part>The London Gazette</part>
+</corpname>
+
+<subject>
+<part>Great Fire of London, 1666</part>
+</subject>
+
+<subject>
+<part>Fires</part>
+</subject>
+
+<subject>
+<part>London history</part>
+</subject>
+
+<subject>
+<part>1666</part>
+</subject>
+
+<subject>
+<part>London</part>
+</subject>
+
+<genreform>
+<part>Newspaper reports</part>
+</genreform>
+
+<geogname>
+<part>London, England</part>
+</geogname>
+</controlaccess>
+
+<userestrict>
+<p>Reuse conditions must be checked against The National Archives' copyright and image reuse guidance.</p>
+</userestrict>
+</c>
     </dsc>
   </archdesc>
 </ead>

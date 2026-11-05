@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Group 4: Wynn BOONYANUSASNA, Magda FIROZALI, Diatasnim KHAN, Lesong LIU, Wenhao QU, Yitao WEI, Ivana ZAYKOVA -->
+<ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+  <control>
+    <recordid>group4-great-fire-yw</recordid>
+    <filedesc>
+      <titlestmt><titleproper>Significant events exhibition: Great Fire of London contribution</titleproper></titlestmt>
+    </filedesc>
+    <maintenancestatus value="new"/>
+    <maintenanceagency><agencyname>UCL Group 4</agencyname></maintenanceagency>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="created"/>
+        <eventdatetime standarddatetime="2026-11-05T18:24:43+00:00">2026-11-05T18:24:43+00:00</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Yitao Wei</agent>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did><unittitle>Significant events exhibition</unittitle></did>
+    <dsc>
+      <c level="item" id="se-1666-gazette">
+        <did>
+          <unitid>se-1666-gazette</unitid>
+          <unitid localtype="tna-reference">ZJ 1/1</unitid>
+          <unittitle>London Gazette report on the Great Fire of London</unittitle>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1666-09">September 1666</datesingle>
+          </unitdatestructured>
+          <repository><corpname><part>The National Archives</part></corpname></repository>
+          <langmaterial><language langcode="eng">English</language></langmaterial>
+          <abstract>A newspaper report on the first hours of the Great Fire of London and the response ordered by the king.</abstract>
+          <dao daotype="derived" href="https://www.nationalarchives.gov.uk/education/resources/significant-events/great-fire-of-london-1666/" actuate="onrequest" show="new" label="View the original image, transcript and simplified transcript"/>
+        </did>
+        <scopecontent>
+          <p>In a dispatch dated 2 September, the London Gazette describes houses burning near Thames Street and London Bridge. It reports that the king sent the Earl of Craven and companies of guards to assist the mayor and magistrates as the fire spread.</p>
+        </scopecontent>
+        <controlaccess>
+          <subject><part>Great Fire of London, 1666</part></subject>
+          <geogname><part>London, England</part></geogname>
+          <genreform><part>Newspaper reports</part></genreform>
+        </controlaccess>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

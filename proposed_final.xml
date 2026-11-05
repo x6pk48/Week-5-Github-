@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="http://ead3.archivists.org/schema/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://ead3.archivists.org/schema/ https://www.loc.gov/ead/ead3.xsd">
+  <control>
+    <recordid>group4-significant-events</recordid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Significant Events: TNA Online Exhibition (Teaching Set)</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>UCL Department of Information Studies (teaching exercise)</publisher>
+      </publicationstmt>
+    </filedesc>
+    <maintenancestatus value="new"/>
+    <maintenanceagency>
+      <agencyname>UCL Department of Information Studies - Group 4</agencyname>
+    </maintenanceagency>
+    <languagedeclaration>
+      <language langcode="eng">English</language>
+      <script scriptcode="Latn">Latin</script>
+    </languagedeclaration>
+    <maintenancehistory>
+      <maintenanceevent>
+        <eventtype value="created"/>
+        <eventdatetime standarddatetime="2026-11-05">2026-11-05</eventdatetime>
+        <agenttype value="human"/>
+        <agent>Group 4 (Wynn, Magda, Dia, Lesong, Wenhao, Yitao, Ivana)</agent>
+      </maintenanceevent>
+    </maintenancehistory>
+  </control>
+  <archdesc level="collection">
+    <did>
+      <unittitle>Significant Events: TNA Online Exhibition (Teaching Set)</unittitle>
+      <unitid>se-collection</unitid>
+      <unitdatestructured unitdatetype="inclusive">
+        <daterange>
+          <fromdate standarddate="1666">1666</fromdate>
+          <todate standarddate="1969">1969</todate>
+        </daterange>
+      </unitdatestructured>
+      <repository>
+        <corpname><part>The National Archives</part></corpname>
+      </repository>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+    </did>
+    <scopecontent>
+      <p>Teaching resources about significant events, described for the exhibition website.</p>
+    </scopecontent>
+    <dsc>
+
+      <!-- 1. GREAT FIRE OF LONDON (Merged by Wynn & Yitao) -->
+      <c level="item" id="se-1666-fire">
+        <did>
+          <unittitle>Report from the London Gazette on the Great Fire of London</unittitle>
+          <unitid>se-1666-fire</unitid>
+          <unitid localtype="tna-reference">ZJ 1/1</unitid>
+          <!-- Merged: Kept Yitao's broader month-level date instead of Wynn's specific day -->
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1666-09">September 1666</datesingle>
+          </unitdatestructured>
+          <origination>
+            <corpname><part>The London Gazette</part></corpname>
+          </origination>
+          <!-- Merged: Kept Wynn's detailed physical description -->
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>report</unittype>
+            <physfacet>A photo taken from a newspaper aged more than 3 centuries ago</physfacet>
+          </physdescstructured>
+          <repository>
+            <corpname><part>The National Archives</part></corpname>
+          </repository>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <!-- Merged: Kept Yitao's clear and concise abstract -->
+          <abstract>A newspaper report on the first hours of the Great Fire of London and the response ordered by the king.</abstract>
+          <dao daotype="derived" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/great-fire-of-london-1666/" actuate="onrequest" show="new"/>
+        </did>
+        <!-- Merged: Kept Wynn's full transcript for accessibility -->
+        <scopecontent>
+          <head>Transcript</head>
+          <p>London, Sept. 2</p>
+          <p>About two a clock this morning a sudden and lamentable fire brake out in this City, beginning not far from Thames Street, near London Bridge; which continues still with great violence, and hath already burnt down to the ground many houses thereabouts; Which said accident affected His Majesty with that tenderness and compassion that He was pleased to Himself in Person with His Royal Highness to give order that all possible means should be used for quenching the fire, or stopping its further spreading. In which care, the Right Honourable the Earl of Craven was sent by His Majesty, to be more particularly assisting to the Lord Major and Magistrates; and several companies of His Guards sent into the City, to be helpful what ways they could in so great calamity.</p>
+        </scopecontent>
+        <!-- Merged: Combined both sets of index terms, standardized formatting -->
+        <controlaccess>
+          <corpname relator="creator"><part>The London Gazette</part></corpname>
+          <subject><part>Great Fire of London, 1666</part></subject>
+          <subject><part>fires</part></subject>
+          <subject><part>london history</part></subject>
+          <subject><part>17th century</part></subject>
+          <genreform><part>newspaper reports</part></genreform>
+          <geogname><part>London, England</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Reuse conditions must be checked against The National Archives' copyright and image reuse guidance.</p>
+        </userestrict>
+      </c>
+
+      <!-- 2. WRIGHT BROTHERS (Authored by Magda) -->
+      <c level="item" id="se-1908-letter">
+        <did>
+          <unittitle>Wright Brothers 1908: letter to the War Office</unittitle>
+          <unitid>se-1908-letter</unitid>
+          <unitid localtype="tna-reference">AIR 1/728/176/3/33</unitid>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1908-04-10">10 April 1908</datesingle>
+          </unitdatestructured>
+          <!-- Group decision: Both brothers listed as creators -->
+          <origination>
+            <persname><part>Wright, Wilbur</part></persname>
+          </origination>
+          <origination>
+            <persname><part>Wright, Orville</part></persname>
+          </origination>
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>letter</unittype>
+            <physfacet>Typed copy of a letter on one page, marked "(Copy)", headed from the Wright Brothers, 1127 W. Third Street, Dayton, Ohio, and addressed to The Secretary, War Office, London, S.W.; signed "(sd) Wright Brothers" with the initials O.W. below</physfacet>
+          </physdescstructured>
+          <repository>
+            <corpname><part>The National Archives</part></corpname>
+          </repository>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <abstract>Copy of a letter dated 10 April 1908 from the American Wright brothers in Dayton, Ohio, to the Secretary of the War Office in London. It offers to make their two-man aeroplanes for military scouting, either under a contract or by licensing the British Government to build them under their British patent, and says the United States Government had recently placed a contract with them for one machine.</abstract>
+          <dao daotype="derived" coverage="whole" label="Live TNA page: Wright Brothers 1908" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/wright-brothers-1908/" linktitle="Wright Brothers 1908 - The National Archives" actuate="onrequest" show="new">
+            <descriptivenote>
+              <p>Public TNA Education page, accessed through the UK Government Web Archive, with the document image and a full transcript.</p>
+            </descriptivenote>
+          </dao>
+          <didnote localtype="context">The TNA page describes the item as a letter from the American Wright brothers to the UK War Office about a possible contract to build their two-man aeroplanes.</didnote>
+        </did>
+        <scopecontent>
+          <head>Transcript</head>
+          <p>(Copy) Wright Brothers, 1127 W. Third Street, Dayton, Ohio.</p>
+          <p>The Secretary, War Office, London, S.W.</p>
+          <p>April 10, 1908.</p>
+          <p>Dear Sir,</p>
+          <p>The increased interest now taken in the different countries in aeronautics, prompts to again call your attention to our aeroplane. The machines as now designed, are suitable for military scouting, being capable of carrying two men (an operator and an observer) and sufficient fuel for long flights.</p>
+          <p>We are prepared to undertake the manufacture of one or more of these machines under a contract; or, if the Government would prefer to build machines for itself under our British patent, we will grant license to operate on payment of suitable royalties on the machines so manufactured.</p>
+          <p>The United States Government has lately entered into contract with us for one of our two-men machines.</p>
+          <p>Very respectfully,</p>
+          <p>(sd) Wright Brothers</p>
+          <p>O.W.</p>
+        </scopecontent>
+        <controlaccess>
+          <persname relator="creator"><part>Wright, Wilbur</part></persname>
+          <persname relator="creator"><part>Wright, Orville</part></persname>
+          <corpname relator="recipient"><part>Great Britain. War Office</part></corpname>
+          <subject><part>aviation</part></subject>
+          <subject><part>aeroplanes</part></subject>
+          <subject><part>military aeronautics</part></subject>
+          <subject><part>20th century</part></subject>
+          <genreform><part>letters</part></genreform>
+          <geogname><part>Dayton, Ohio, United States</part></geogname>
+          <geogname><part>London, England</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+
+      <!-- 3. TITANIC (Authored by Dia) -->
+      <!-- [Dia] Titanic distress telegram: one single document, so level="item" -->
+      <c level="item" id="se-1912-telegram">
+        <!-- did: the core identifying details of the item -->
+        <did>
+          <unittitle>Titanic Distress Telegram 1912 received by S.S. Birma</unittitle>
+          <!-- Our own ID for this file, plus the real TNA catalogue reference -->
+          <unitid>se-1912-telegram</unitid>
+          <unitid localtype="tna-reference">MT 9/920C</unitid>
+          <!-- Sent around midnight, so the date spans the night of 14/15 April -->
+          <unitdatestructured unitdatetype="inclusive">
+            <daterange>
+              <fromdate standarddate="1912-04-14">14 April 1912</fromdate>
+              <todate standarddate="1912-04-15">15 April 1912</todate>
+            </daterange>
+          </unitdatestructured>
+          <!-- Creator of this copy: the company whose ship recorded the message -->
+          <origination>
+            <corpname><part>Russian East Asiatic S.S. Co.</part></corpname>
+          </origination>
+          <!-- Physical description: how many, what type, and what it looks like -->
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>radio-telegram</unittype>
+            <physfacet>Typed on a printed Russian East Asiatic S.S. Co. form, with a table of columns for: number of words, origin station, time handed in, route and remarks; stamped M16307 and numbered 526</physfacet>
+          </physdescstructured>
+          <repository>
+            <corpname><part>The National Archives</part></corpname>
+          </repository>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <!-- Short summary in our own words -->
+          <abstract>Radio-telegram sent on the night of 14/15 April 1912 at 11h45m from the Titanic (call sign MGY) and received by the S.S. Birma. It records a distress call saying the ship had struck an iceberg, was sinking fast and was asking for assistance at the position stated.</abstract>
+          <!-- Link to the online version; "derived" means digital copy of the physical original -->
+          <dao daotype="derived" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/titanic-telegram-1912/" actuate="onrequest" show="new"/>
+        </did>
+        <!-- Transcript of the document, keeping its original wording and layout -->
+        <scopecontent>
+          <head>Transcript</head>
+          <p>The Russian East Asiatic S.S. Co. Radio-Telegram. S.S. "Birma".</p>
+          <!-- The table printed on the form: one header row and one data row -->
+          <table frame="all">
+            <tgroup cols="5">
+              <thead>
+                <row>
+                  <entry>No. Words</entry>
+                  <entry>Origin Station</entry>
+                  <entry>Time handed in</entry>
+                  <entry>Via</entry>
+                  <entry>Remarks</entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>bg to 6.</entry>
+                  <entry>Titanic</entry>
+                  <entry>11 H.45M. April 14/15 1912.</entry>
+                  <entry/> <!-- "Via" is blank on the original -->
+                  <entry>Distress call Ligs Loud.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!-- The message itself, written below the table on the original -->
+          <p>Cgd - SOS. from M. G. Y. We have struck iceberg sinking fast come to our assistance. Position Lat. 41.46 n. Lon. 50.14. W. M. G. Y.</p>
+          <p>[MGY was the codename for the Titanic.]</p>
+        </scopecontent>
+        <!-- Access points: the index terms people can search by -->
+        <controlaccess>
+          <!-- Named bodies (ships count as corporate bodies) -->
+          <corpname relator="sender"><part>Titanic</part></corpname>
+          <corpname relator="recipient"><part>Birma</part></corpname>
+          <!-- Topics -->
+          <subject><part>titanic</part></subject>
+          <subject><part>shipwrecks</part></subject>
+          <subject><part>20th century</part></subject>
+          <!-- Type of document -->
+          <genreform><part>telegrams</part></genreform>
+          <!-- Place the telegram is from -->
+          <geogname><part>North Atlantic</part></geogname>
+        </controlaccess>
+        <!-- Conditions for reusing the item -->
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+
+      <!-- 4. NHS (Authored by Ivana) -->
+      <c level="item" id="item-nhs-1948">
+        <did>
+          <unittitle>Birth of the NHS (1948): "Your New National Health Service" advertisement</unittitle>
+          <unitid>item-nhs-1948</unitid>
+          <!-- Ivana accurately identified the TNA catalogue reference -->
+          <unitid localtype="tna-reference">INF 2/66</unitid>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1948">1948</datesingle>
+          </unitdatestructured>
+          <origination>
+            <corpname><part>Scotland. Department of Health</part></corpname>
+          </origination>
+          <!-- Ivana described the specific format (printed single page) -->
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>advertisement</unittype>
+            <physfacet>Printed single-page public information advertisement, digitised as an image</physfacet>
+          </physdescstructured>
+          <repository>
+            <corpname><part>The National Archives</part></corpname>
+          </repository>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <!-- Ivana's detailed abstract includes key dates and form numbers -->
+          <abstract>A public information advertisement issued by the Department of Health for Scotland to explain that the National Health Service would start on 5 July 1948. It says that anyone can use the service, with no age limits and no fees, and tells people to choose a doctor and to collect application form E.C.1 for each family member. It appeared in selected Sunday, morning and evening newspapers in Scotland.</abstract>
+          <dao daotype="derived" coverage="whole" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" linktitle="Birth of the NHS 1948 - The National Archives" actuate="onrequest" show="new"/>
+        </did>
+        <scopecontent>
+          <p>Advertisement that introduces the new National Health Service to the public in Scotland shortly before it began. It explains who can use the service, how it is paid for through public funds and how people should register with a doctor.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname relator="creator"><part>Scotland. Department of Health</part></corpname>
+          <subject><part>National Health Service (Great Britain)</part></subject>
+          <subject><part>health services</part></subject>
+          <subject><part>public health</part></subject>
+          <subject><part>20th century</part></subject>
+          <genreform><part>advertisements</part></genreform>
+          <geogname><part>Scotland</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+
+      <!-- 5. MOON LANDING (Authored by Lesong) -->
+      <c level="item" id="se-1969">
+        <did>
+          <unittitle>Moon Landing (1969)</unittitle>
+          <unitid>se-1969</unitid>
+          <!-- Added TNA reference for consistency with other records -->
+          <unitid localtype="tna-reference">FCO 7/1018</unitid>
+          <unitdatestructured unitdatetype="inclusive">
+            <datesingle standarddate="1969-07-21">21 July 1969</datesingle>
+          </unitdatestructured>
+          <origination>
+            <corpname><part>Foreign and Commonwealth Office</part></corpname>
+          </origination>
+          <!-- Added physical description for consistency -->
+          <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+            <quantity>1</quantity>
+            <unittype>telegram</unittype>
+            <physfacet>Restricted flash telegram from the Foreign and Commonwealth Office to Washington, containing a message from the Prime Minister.</physfacet>
+          </physdescstructured>
+          <repository>
+            <corpname><part>The National Archives</part></corpname>
+          </repository>
+          <langmaterial>
+            <language langcode="eng">English</language>
+          </langmaterial>
+          <abstract>Telegram from the Foreign and Commonwealth Office to Washington, 21 July 1969, conveying Prime Minister Harold Wilson’s congratulations to President Nixon and the Apollo 11 astronauts on the successful Moon landing.</abstract>
+          <dao daotype="derived" href="https://www.nationalarchives.gov.uk/education/resources/significant-events/moon-landing-1969/" actuate="onrequest" show="new"/>
+        </did>
+        <scopecontent>
+          <p>Educational resource based on a restricted telegram about the Apollo 11 mission.</p>
+        </scopecontent>
+        <controlaccess>
+          <corpname relator="creator"><part>Foreign and Commonwealth Office</part></corpname>
+          <subject><part>moon landing</part></subject>
+          <subject><part>apollo 11</part></subject>
+          <subject><part>space exploration</part></subject>
+          <subject><part>20th century</part></subject>
+          <geogname><part>Moon</part></geogname>
+        </controlaccess>
+        <userestrict>
+          <p>Refer to The National Archives website for reuse terms.</p>
+        </userestrict>
+      </c>
+
+    </dsc>
+  </archdesc>
+</ead>

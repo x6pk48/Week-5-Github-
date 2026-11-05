@@ -292,52 +292,136 @@ href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarc
 actuate="onrequest"
 show="new"/>
 </did>
-
 <scopecontent>
 <head>Transcript</head>
-
 <p>London, Sept. 2</p>
-
 <p>About two a clock this morning a sudden and lamentable fire brake out in this City, beginning not far from Thames Street, near London Bridge; which continues still with great violence, and hath already burnt down to the ground many houses thereabouts; Which said accident affected His Majesty with that tenderness and compassion that He was pleased to Himself in Person with His Royal Highness to give order that all possible means should be used for quenching the fire, or stopping its further spreading. In which care, the Right Honourable the Earl of Craven was sent by His Majesty, to be more particularly assisting to the Lord Major and Magistrates; and several companies of His Guards sent into the City, to be helpful what ways they could in so great calamity.</p>
 </scopecontent>
-
 <controlaccess>
 <corpname relator="creator">
 <part>The London Gazette</part>
 </corpname>
-
 <subject>
 <part>Great Fire of London, 1666</part>
 </subject>
-
 <subject>
 <part>Fires</part>
 </subject>
-
 <subject>
 <part>London history</part>
 </subject>
-
 <subject>
 <part>1666</part>
 </subject>
-
 <subject>
 <part>London</part>
 </subject>
-
 <genreform>
 <part>Newspaper reports</part>
 </genreform>
-
 <geogname>
 <part>London, England</part>
 </geogname>
 </controlaccess>
-
 <userestrict>
 <p>Reuse conditions must be checked against The National Archives' copyright and image reuse guidance.</p>
 </userestrict>
+</c>
+<!-- Wright Brothers. One letter, so level="item". The id must be unique in the file. -->
+<c level="item" id="se-1908-letter">
+
+  <!-- did: the core identifying details of the item -->
+  <did>
+    <unittitle>Wright Brothers 1908: letter to the War Office</unittitle>
+
+    <!-- Our own ID, plus the real TNA catalogue reference from the page caption -->
+    <unitid>se-1908-letter</unitid>
+    <unitid localtype="tna-reference">AIR 1/728/176/3/33</unitid>
+
+    <!-- Single date: the letter is dated 10 April 1908. standarddate uses ISO format (YYYY-MM-DD) -->
+    <unitdatestructured unitdatetype="inclusive">
+      <datesingle standarddate="1908-04-10">10 April 1908</datesingle>
+    </unitdatestructured>
+
+    <!-- Creators: the letter is signed "Wright Brothers" with the initials O.W.
+         Both brothers are listed, one origination each. This is a group decision to flag in the Moodle post. -->
+    <origination>
+      <persname><part>Wright, Wilbur</part></persname>
+    </origination>
+    <origination>
+      <persname><part>Wright, Orville</part></persname>
+    </origination>
+
+    <!-- Physical description: how many, what type, and what it looks like -->
+    <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+      <quantity>1</quantity>
+      <unittype>letter</unittype>
+      <physfacet>Typed copy of a letter on one page, marked "(Copy)", headed from the Wright Brothers, 1127 W. Third Street, Dayton, Ohio, and addressed to The Secretary, War Office, London, S.W.; signed "(sd) Wright Brothers" with the initials O.W. below</physfacet>
+    </physdescstructured>
+
+    <langmaterial>
+      <language langcode="eng">English</language>
+    </langmaterial>
+
+    <!-- Where the original is held -->
+    <repository>
+      <corpname><part>The National Archives</part></corpname>
+    </repository>
+
+    <!-- Short summary in our own words: plain language, no value judgements -->
+    <abstract>Copy of a letter dated 10 April 1908 from the American Wright brothers in Dayton, Ohio, to the Secretary of the War Office in London. It offers to make their two-man aeroplanes for military scouting, either under a contract or by licensing the British Government to build them under their British patent, and says the United States Government had recently placed a contract with them for one machine.</abstract>
+
+    <!-- Link to the live TNA page (via the UK Government Web Archive).
+         daotype="derived" means a digital copy of the physical original.
+         actuate="onrequest" and show="new": opens in a new tab when the user clicks. -->
+    <dao daotype="derived" coverage="whole" label="Live TNA page: Wright Brothers 1908" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/wright-brothers-1908/" linktitle="Wright Brothers 1908 - The National Archives" actuate="onrequest" show="new">
+      <descriptivenote>
+        <p>Public TNA Education page, accessed through the UK Government Web Archive, with the document image and a full transcript.</p>
+      </descriptivenote>
+    </dao>
+
+    <!-- Context note, based on the TNA page caption -->
+    <didnote localtype="context">The TNA page describes the item as a letter from the American Wright brothers to the UK War Office about a possible contract to build their two-man aeroplanes.</didnote>
+  </did>
+
+  <!-- Transcript of the letter, keeping its original wording and spelling -->
+  <scopecontent>
+    <head>Transcript</head>
+    <p>(Copy) Wright Brothers, 1127 W. Third Street, Dayton, Ohio.</p>
+    <p>The Secretary, War Office, London, S.W.</p>
+    <p>April 10, 1908.</p>
+    <p>Dear Sir,</p>
+    <p>The increased interest now taken in the different countries in aeronautics, prompts to again call your attention to our aeroplane. The machines as now designed, are suitable for military scouting, being capable of carrying two men (an operator and an observer) and sufficient fuel for long flights.</p>
+    <p>We are prepared to undertake the manufacture of one or more of these machines under a contract; or, if the Government would prefer to build machines for itself under our British patent, we will grant license to operate on payment of suitable royalties on the machines so manufactured.</p>
+    <p>The United States Government has lately entered into contract with us for one of our two-men machines.</p>
+    <p>Very respectfully,</p>
+    <p>(sd) Wright Brothers</p>
+    <p>O.W.</p>
+  </scopecontent>
+
+  <!-- Access points: the index terms people can search by.
+       Same lowercase style as the other items, so the website can group them consistently. -->
+  <controlaccess>
+    <!-- Named people and bodies, with their role in the document -->
+    <persname relator="creator"><part>Wright, Wilbur</part></persname>
+    <persname relator="creator"><part>Wright, Orville</part></persname>
+    <corpname relator="recipient"><part>Great Britain. War Office</part></corpname>
+    <!-- Topics -->
+    <subject><part>aviation</part></subject>
+    <subject><part>aeroplanes</part></subject>
+    <subject><part>military aeronautics</part></subject>
+    <subject><part>20th century</part></subject>
+    <!-- Type of document -->
+    <genreform><part>letters</part></genreform>
+    <!-- Places: where it was sent from and where it was sent to -->
+    <geogname><part>Dayton, Ohio, United States</part></geogname>
+    <geogname><part>London, England</part></geogname>
+  </controlaccess>
+
+  <!-- Conditions for reusing the item -->
+  <userestrict>
+    <p>Refer to The National Archives website for reuse terms.</p>
+  </userestrict>
 </c>
     </dsc>
   </archdesc>

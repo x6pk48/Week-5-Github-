@@ -37,7 +37,7 @@
       <unitdatestructured unitdatetype="inclusive">
         <daterange>
           <fromdate standarddate="1666">1666</fromdate>
-          <todate standarddate="1912">1912</todate>
+          <todate standarddate="1969">1969</todate>
         </daterange>
       </unitdatestructured>
       <repository>
@@ -50,54 +50,11 @@
     <scopecontent>
       <p>Teaching resources about significant events, described for the exhibition website.</p>
     </scopecontent>
-    <dsc> <!-- Use of dsc to go around the archdesc allow the multiple <c> entries inside that collection-->
-
-      <!-- EXAMPLES-->
-      <!-- <c level="file" id="se-1666">
-        <did>
-          <unittitle>Great Fire of London</unittitle>
-          <unitid>se-1666</unitid>
-          <unitdatestructured unitdatetype="inclusive">
-            <datesingle standarddate="1666">1666</datesingle>
-          </unitdatestructured>
-          <abstract>The fire began on 2 September 1666 in a bakery on Pudding Lane and spread through the City of London. This resource uses original documents to show how we know what happened.</abstract>
-          <dao href="https://www.nationalarchives.gov.uk/education/resources/fire-of-london/" actuate="onrequest" show="new"/>
-        </did>
-        <controlaccess>
-          <subject><part>great fire of london</part></subject>
-          <subject><part>fire</part></subject>
-          <subject><part>17th century</part></subject>
-          <subject><part>pudding lane</part></subject>
-          <geogname><part>London, England</part></geogname>
-        </controlaccess>
-        <userestrict>
-          <p>Refer to The National Archives website for reuse terms.</p>
-        </userestrict>
-      </c> -->
-
-      <!-- <c level="file" id="se-1912">
-        <did>
-          <unittitle>The sinking of the Titanic</unittitle>
-          <unitid>se-1912</unitid>
-          <unitdatestructured unitdatetype="inclusive">
-            <datesingle standarddate="1912">1912</datesingle>
-          </unitdatestructured>
-          <abstract>The Titanic sank in the North Atlantic in April 1912 on its maiden voyage. Students use documents from the British Wreck Commissioner’s inquiry to consider why so many lives were lost.</abstract>
-          <dao href="https://www.nationalarchives.gov.uk/education/education-sessions/the-sinking-of-the-titanic/" actuate="onrequest" show="new"/>
-        </did>
-        <controlaccess>
-          <subject><part>titanic</part></subject>
-          <subject><part>shipwrecks</part></subject>
-          <subject><part>20th century</part></subject>
-          <geogname><part>North Atlantic</part></geogname>
-        </controlaccess>
-        <userestrict>
-          <p>Refer to The National Archives website for reuse terms.</p>
-        </userestrict>
-      </c> -->
+    <dsc>
 
      <!-- OUR CODE-->
 <!-- [Dia] Titanic distress telegram: one single document, so level="item" -->
+<!-- Authored by Dia -->
       <c level="item" id="se-1912-telegram">
 
         <!-- did: the core identifying details of the item -->
@@ -195,41 +152,110 @@
         </userestrict>
       </c>
 
-     <!--NHS diagram document XML-->
-      <c level="item" id="item-nhs-1948">
-                <did>
-                    <unitid localtype="exhibition-id">TNA-EXH-TEAM-001-04</unitid>
-                    <unitid localtype="catalogue-ref" repositorycode="TNA">https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/</unitid>
-                    <unittitle>Birth of the NHS (1948): "Your New National Health Service" advertisement</unittitle>
-                    <unitdatestructured unitdatetype="inclusive">
-                        <datesingle standarddate="1948">1948</datesingle>
-                    </unitdatestructured>
-                    <abstract>A public information advertisement issued by the Department of Health for Scotland to explain that the National Health Service would start on 5 July 1948. It says that anyone can use the service, with no age limits and no fees, and tells people to choose a doctor and to collect application form E.C.1 for each family member. It appeared in selected Sunday, morning and evening newspapers in Scotland.</abstract>
-                    <physdesc>Digital image of a printed single-page advertisement, with transcript.</physdesc>
-                    <langmaterial>
-                        <language langcode="eng">English</language>
-                    </langmaterial>
-                    <origination>
-                        <corpname source="local"><part>Scotland. Department of Health</part></corpname>
-                    </origination>
-                    <repository>
-                        <corpname source="tna"><part>The National Archives</part></corpname>
-                    </repository>
-                    <dao daotype="derived" coverage="whole" label="Live TNA page: Birth of the NHS 1948" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" linktitle="Birth of the NHS 1948 - The National Archives" show="new" actuate="onrequest"/>
-                </did>
-                <scopecontent>
-                    <p>Advertisement that introduces the new National Health Service to the public in Scotland shortly before it began. It explains who can use the service, how it is paid for through public funds and how people should register with a doctor.</p>
-                    <p>TNA page: <ref href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" show="new" actuate="onrequest" linktitle="Birth of the NHS 1948 - The National Archives">Birth of the NHS 1948</ref>.</p>
-                </scopecontent>
-                <controlaccess>
-                    <subject source="local"><part>National Health Service (Great Britain)</part></subject>
-                    <subject source="local"><part>Health services</part></subject>
-                    <subject source="local"><part>Public health</part></subject>
-                    <geogname source="local"><part>Scotland</part></geogname>
-                    <corpname source="local"><part>Scotland. Department of Health</part></corpname>
-                    <genreform source="local"><part>Advertisements</part></genreform>
-                </controlaccess>
-            </c>
+ <!-- NHS advertisement 1948: one single document, so level="item" -->
+<!-- Authored by Ivana -->
+<!-- Local exhibition ID "item-nhs-1948"; real TNA catalogue reference is INF 2/66 -->
+<c level="item" id="item-nhs-1948">
+
+  <!-- did: the core identifying details of the item -->
+  <did>
+    <unittitle>Birth of the NHS (1948): "Your New National Health Service" advertisement</unittitle>
+
+    <!-- Primary local identifier, plus the real TNA catalogue reference -->
+    <unitid>item-nhs-1948</unitid>
+    <unitid localtype="tna-reference">INF 2/66</unitid>
+
+    <unitdatestructured unitdatetype="inclusive">
+      <datesingle standarddate="1948">1948</datesingle>
+    </unitdatestructured>
+
+    <!-- Creator of the advertisement -->
+    <origination>
+      <corpname><part>Scotland. Department of Health</part></corpname>
+    </origination>
+
+    <!-- Physical description: how many, what type, and what it looks like -->
+    <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+      <quantity>1</quantity>
+      <unittype>advertisement</unittype>
+      <physfacet>Printed single-page public information advertisement, digitised as an image</physfacet>
+    </physdescstructured>
+
+    <langmaterial>
+      <language langcode="eng">English</language>
+    </langmaterial>
+    <abstract>A public information advertisement issued by the Department of Health for Scotland to explain that the National Health Service would start on 5 July 1948. It says that anyone can use the service, with no age limits and no fees, and tells people to choose a doctor and to collect application form E.C.1 for each family member. It appeared in selected Sunday, morning and evening newspapers in Scotland.</abstract>
+
+    <!-- Link to the online version -->
+    <dao daotype="derived" coverage="whole" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" linktitle="Birth of the NHS 1948 - The National Archives" actuate="onrequest" show="new"/>
+  </did>
+
+  <!-- Description of content -->
+  <scopecontent>
+    <p>Advertisement that introduces the new National Health Service to the public in Scotland shortly before it began. It explains who can use the service, how it is paid for through public funds and how people should register with a doctor.</p>
+  </scopecontent>
+
+  <!-- Access points: the index terms people can search by -->
+  <controlaccess>
+    <corpname relator="creator"><part>Scotland. Department of Health</part></corpname>
+    <subject><part>National Health Service (Great Britain)</part></subject>
+    <subject><part>health services</part></subject>
+    <subject><part>public health</part></subject>
+    <subject><part>20th century</part></subject>
+    <genreform><part>advertisements</part></genreform>
+    <geogname><part>Scotland</part></geogname>
+  </controlaccess>
+
+  <!-- Conditions for reusing the item -->
+  <userestrict>
+    <p>Refer to The National Archives website for reuse terms.</p>
+  </userestrict>
+</c>
+
+<!-- Moon Landing 1969: one single document, so level="item" -->
+<!-- Authored by Lesong Liu -->
+<c level="item" id="se-1969">
+
+  <!-- did: the core identifying details of the item -->
+  <did>
+    <unittitle>Moon Landing (1969)</unittitle>
+
+    <!-- Primary local identifier -->
+    <unitid>se-1969</unitid>
+
+    <unitdatestructured unitdatetype="inclusive">
+      <datesingle standarddate="1969-07-21">21 July 1969</datesingle>
+    </unitdatestructured>
+
+    <langmaterial>
+      <language langcode="eng">English</language>
+    </langmaterial>
+
+    <abstract>Telegram from the Foreign and Commonwealth Office to Washington, 21 July 1969, conveying Prime Minister Harold Wilson’s congratulations to President Nixon and the Apollo 11 astronauts on the successful Moon landing.</abstract>
+
+    <!-- Link to the online version -->
+    <dao daotype="derived" href="https://www.nationalarchives.gov.uk/education/resources/significant-events/moon-landing-1969/" actuate="onrequest" show="new"/>
+  </did>
+
+  <!-- Description of content -->
+  <scopecontent>
+    <p>Educational resource based on a restricted telegram about the Apollo 11 mission.</p>
+  </scopecontent>
+
+  <!-- Access points: the index terms people can search by -->
+  <controlaccess>
+    <subject><part>moon landing</part></subject>
+    <subject><part>apollo 11</part></subject>
+    <subject><part>space exploration</part></subject>
+    <subject><part>20th century</part></subject>
+    <geogname><part>Moon</part></geogname>
+  </controlaccess>
+
+  <!-- Conditions for reusing the item -->
+  <userestrict>
+    <p>Refer to The National Archives website for reuse terms.</p>
+  </userestrict>
+</c>
     </dsc>
   </archdesc>
 </ead>

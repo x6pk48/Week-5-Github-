@@ -259,7 +259,7 @@
         <did>
           <unittitle>Birth of the NHS (1948): "Your New National Health Service" advertisement</unittitle>
           <unitid>item-nhs-1948</unitid>
-          <!-- Ivana accurately identified the TNA catalogue reference -->
+          <!-- The TNA catalogue reference -->
           <unitid localtype="tna-reference">INF 2/66</unitid>
           <unitdatestructured unitdatetype="inclusive">
             <datesingle standarddate="1948">1948</datesingle>
@@ -267,7 +267,7 @@
           <origination>
             <corpname><part>Scotland. Department of Health</part></corpname>
           </origination>
-          <!-- Ivana described the specific format (printed single page) -->
+          <!-- The specific format (printed single page) -->
           <physdescstructured physdescstructuredtype="materialtype" coverage="whole">
             <quantity>1</quantity>
             <unittype>advertisement</unittype>
@@ -279,7 +279,7 @@
           <langmaterial>
             <language langcode="eng">English</language>
           </langmaterial>
-          <!-- Ivana's detailed abstract includes key dates and form numbers -->
+          <!--Abstract includes key dates and form numbers -->
           <abstract>A public information advertisement issued by the Department of Health for Scotland to explain that the National Health Service would start on 5 July 1948. It says that anyone can use the service, with no age limits and no fees, and tells people to choose a doctor and to collect application form E.C.1 for each family member. It appeared in selected Sunday, morning and evening newspapers in Scotland.</abstract>
           <dao daotype="derived" coverage="whole" href="https://webarchive.nationalarchives.gov.uk/ukgwa/+/https://www.nationalarchives.gov.uk/education/resources/significant-events/birth-of-the-nhs-1948/" linktitle="Birth of the NHS 1948 - The National Archives" actuate="onrequest" show="new"/>
         </did>
